@@ -18,6 +18,8 @@ class PublicationBuilder extends StatelessWidget {
     return Column(
       children: [
         ListTile(
+          //
+
           leading: Text(builderTitle),
           trailing: GestureDetector(
             onTap: () {},

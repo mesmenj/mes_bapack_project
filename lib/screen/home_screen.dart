@@ -1,10 +1,6 @@
-import 'dart:ui';
-
 import 'package:flutter/material.dart';
 import 'package:mes_bapack_project/screen/settings_screen.dart';
 import 'package:mes_bapack_project/widget/publication_item.dart';
-
-import 'package:provider/provider.dart';
 
 import '../wrapper.dart';
 
@@ -265,7 +261,7 @@ class _MyHomePageState extends State<MyHomePage>
           addAutomaticKeepAlives: true,
           padding: const EdgeInsets.symmetric(vertical: 30.0),
           children: <Widget>[
-            Padding(
+            const Padding(
               padding: EdgeInsets.only(left: 20.0, right: 20.0),
               child: Text(
                 'Quel type de logement cherchez vous?',
@@ -275,10 +271,10 @@ class _MyHomePageState extends State<MyHomePage>
                     color: Color.fromARGB(255, 238, 235, 235)),
               ),
             ),
-            SizedBox(
+            const SizedBox(
               height: 20.0,
             ),
-            Container(
+            SizedBox(
               height: 70,
               //  child: Row(
               child: ListView(
@@ -296,49 +292,49 @@ class _MyHomePageState extends State<MyHomePage>
                 ],
               ),
             ),
-            SizedBox(
+            const SizedBox(
               height: 20.0,
             ),
-            PublicationItem(
+            const PublicationItem(
                 imageUrl: 'photo',
                 logement: "logement",
                 quartier: 'quartier',
                 prix: 'prix'),
             // Douala5iemLogement(),
-            SizedBox(
+            const SizedBox(
               height: 20.0,
             ),
-            PublicationItem(
+            const PublicationItem(
                 imageUrl: 'photo',
                 logement: "logement",
                 quartier: 'quartier',
                 prix: 'prix'),
 
             //  Douala1erLogement(),
-            SizedBox(
+            const SizedBox(
               height: 20.0,
             ),
-            PublicationItem(
+            const PublicationItem(
                 imageUrl: 'photo',
                 logement: "logement",
                 quartier: 'quartier',
                 prix: 'prix'),
 
             // Douala2iemLogement(),
-            SizedBox(
+            const SizedBox(
               height: 20.0,
             ),
-            PublicationItem(
+            const PublicationItem(
                 imageUrl: 'photo',
                 logement: "logement",
                 quartier: 'quartier',
                 prix: 'prix'),
 
             // Douala3iemLogement(),
-            SizedBox(
+            const SizedBox(
               height: 20.0,
             ),
-            PublicationItem(
+            const PublicationItem(
                 imageUrl: 'photo',
                 logement: "logement",
                 quartier: 'quartier',

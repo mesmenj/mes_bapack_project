@@ -7,6 +7,6 @@ class ServiceFactory extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MultiBlocProvider(providers: [], child: child);
+    return MultiBlocProvider(providers: const [], child: child);
   }
 }

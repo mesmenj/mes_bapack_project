@@ -18,13 +18,6 @@ class _SplashScreenState extends State<SplashScreen> {
     startAnimation();
   }
 
-  // @override
-  // void dispose() {
-  // ignore: todo
-  //   // TODO: implement dispose
-  //   super.dispose();
-  // } q true
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
